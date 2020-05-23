@@ -1,0 +1,3 @@
+rootProject.name='Lint'
+include ':app'
+include ':lint'
