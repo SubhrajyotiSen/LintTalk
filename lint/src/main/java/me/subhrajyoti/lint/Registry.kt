@@ -12,5 +12,5 @@ class Registry : IssueRegistry() {
 
     @get:NotNull
     override val issues: List<Issue>
-        get() = listOf(MissingStyleAttributeDetector.ISSUE, MaterialSnackbarUsageDetector.ISSUE)
+        get() = listOf(MissingStyleAttributeDetector.ISSUE, MaterialSnackbarUsageDetector.ISSUE, SpaceDetector.ISSUE)
 }
